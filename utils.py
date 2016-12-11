@@ -22,3 +22,5 @@ inp = input("Enter a string to convert to another base: ")
 base = int(input("What base would you like to convert to? (2, 8, 16): "))
 
 print(stringToDigits(inp, base))
+
+input("Press any key to continue...")
