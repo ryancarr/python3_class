@@ -16,3 +16,9 @@ def stringToDigits(inp, base):
         result += "".join(lst)
 
     return result
+
+
+inp = input("Enter a string to convert to another base: ")
+base = int(input("What base would you like to convert to? (2, 8, 16): "))
+
+print(stringToDigits(inp, base))
